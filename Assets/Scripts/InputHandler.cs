@@ -7,12 +7,12 @@ using UnityEngine.InputSystem;
 public class InputHandler : MonoBehaviour
 {
 
-    private IMovable _movable;
+    private PlayerMovement _movable;
     private Vector2 _moveDirection;
 
     private void Awake()
     {
-        _movable = GetComponent<IMovable>();
+        _movable = GetComponent<PlayerMovement>();
     }
 
     public void OnMove(InputAction.CallbackContext context)

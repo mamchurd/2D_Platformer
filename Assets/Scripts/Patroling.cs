@@ -8,12 +8,12 @@ public class Patroling : MonoBehaviour
     [SerializeField] private Transform _path;
 
     private Transform[] _points;
-    private IMovable _movable;
+    private EnemyMovement _movable;
     private int _currentPoint;
 
     private void Start()
     {
-        _movable = GetComponent<IMovable>();
+        _movable = GetComponent<EnemyMovement>();
 
         _currentPoint = 0;
         _points = new Transform[_path.childCount];

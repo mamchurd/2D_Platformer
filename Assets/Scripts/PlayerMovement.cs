@@ -6,7 +6,7 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 [RequireComponent(typeof(Animator))]
 
-public class PlayerMovement : MonoBehaviour, IMovable
+public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] private float _horizontalSpeed;
     [SerializeField] private float _jumpForce;
@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour, IMovable
     private Rigidbody2D _rigidbody2D;
     private Animator _animator;
 
-    public bool IsLanded => _verticalSpeed == 0;
+    public bool IsLanded => Math.Abs(_verticalSpeed) <= 0.01f;
 
     private void Awake()
     {
