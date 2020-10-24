@@ -985,10 +985,10 @@ Tilemap:
       m_TileColorIndex: 126
       m_TileObjectToInstantiateIndex: 65535
       m_AllTileFlags: 1073741825
-  - first: {x: 3, y: -3, z: 0}
+  - first: {x: 2, y: -3, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 102
+      m_TileIndex: 147
       m_TileSpriteIndex: 102
       m_TileMatrixIndex: 0
       m_TileColorIndex: 126
@@ -1026,6 +1026,15 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 98
       m_TileSpriteIndex: 98
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 126
+      m_TileObjectToInstantiateIndex: 65535
+      m_AllTileFlags: 1073741825
+  - first: {x: 1, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 126
+      m_TileSpriteIndex: 126
       m_TileMatrixIndex: 0
       m_TileColorIndex: 126
       m_TileObjectToInstantiateIndex: 65535
@@ -1107,15 +1116,6 @@ Tilemap:
       serializedVersion: 2
       m_TileIndex: 127
       m_TileSpriteIndex: 127
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 126
-      m_TileObjectToInstantiateIndex: 65535
-      m_AllTileFlags: 1073741825
-  - first: {x: 1, y: -1, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 126
-      m_TileSpriteIndex: 126
       m_TileMatrixIndex: 0
       m_TileColorIndex: 126
       m_TileObjectToInstantiateIndex: 65535
@@ -1461,8 +1461,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: 922ab9e61228f544da50e0906b46a23c, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 52dfde7c0f3352f498d2bb0dd3fa40c0, type: 2}
-  - m_RefCount: 1
-    m_Data: {fileID: 11400000, guid: 26638812f63fd984fbb5c1b02be8a335, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: 0f30f5217b7b0384998a852104e4827b, type: 2}
   - m_RefCount: 1
@@ -1551,8 +1551,8 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 26638812f63fd984fbb5c1b02be8a335, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 0
     m_Data: {fileID: 0}
